@@ -1,15 +1,21 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "docter-care",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "ioxekxkaejjpud",
+    "password": "e4f24ba37407b4057684d1cfb602e915d336c47b40ac2ac806f88b29d4f486c5",
+    "database": "dc21moc5fkqibn",
+    "host": "ec2-3-225-41-234.compute-1.amazonaws.com",
+    "dialect": "postgres",
     "logging": false,
     "query": {
       "raw": true
     },
-    "timezone": "+07:00"
+    "timezone": "+07:00",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
